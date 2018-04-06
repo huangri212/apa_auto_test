@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>APA-DynamicFilter</ScriptName>
+  <Protocol>TruClient - Web</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="Lib-View.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="APA-DynamicFilter.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="APA-DynamicFilter.prm" Filter="2" />
+    <FileEntry Name="C-functions.c" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="JS-functions.js" Filter="2" />
+    <FileEntry Name="NewParam(1).dat" Filter="2" />
+    <FileEntry Name="default.xml" Filter="2" />
+    <FileEntry Name="TruClientScriptMetadata.xml" Filter="2" />
+    <FileEntry Name="TC.xsl" Filter="2" />
+    <FileEntry Name="processName.dat" Filter="2" />
+    <FileEntry Name="profiles\" Filter="2" />
+    <FileEntry Name="combined_APA-DynamicFilter.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="201882319440.idx" Filter="1" />
+    <FileEntry Name="223266965440.idx" Filter="1" />
+    <FileEntry Name="APA-DynamicFilter.c.pickle" Filter="1" />
+    <FileEntry Name="APA-DynamicFilter.ci" Filter="1" />
+    <FileEntry Name="APA-DynamicFilter.prm.bak" Filter="1" />
+    <FileEntry Name="APA-DynamicFilter.sdf" Filter="1" />
+    <FileEntry Name="APA-ProcessFlow.prm.bak" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="default.cfg.bak" Filter="1" />
+    <FileEntry Name="interactive_replay_Chromium.txt" Filter="1" />
+    <FileEntry Name="interactive_replay_Firefox.txt" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv0nQ.173.log" Filter="1" />
+    <FileEntry Name="mdrv6AG.985.log" Filter="1" />
+    <FileEntry Name="mdrvLCc.641.log" Filter="1" />
+    <FileEntry Name="mdrvrh6.613.log" Filter="1" />
+    <FileEntry Name="mdrvzBF.413.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="NewParam.dat" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="replay.har" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="Scenario4.lrs" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="shunra.shunra" Filter="1" />
+    <FileEntry Name="TruClient1.prm.bak" Filter="1" />
+    <FileEntry Name="URL.dat" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+    <FileEntry Name="results\" Filter="1" />
+    <FileEntry Name="resultSnap\" Filter="1" />
+    <FileEntry Name="snapshots\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

@@ -1,0 +1,32 @@
+Virtual User Script started at : 2018-01-09 16:15:23
+TruClient Replay for LoadRunner 12.55.0, build 0911. OS: Windows 10, Browser: Firefox, initialized on 2018/01/09 at 16:15:18 (0000.000s)
+
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "APA_ProcessFlow_010_Homepage" started.
+t=00012583ms: ** 1: Navigate to "qa.dxc-apa.net" ** started    [MsgId: MMSG-205180]
+t=00012845ms: ** 1: Navigate to qa.dxc-apa.net ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00012981ms: ** 2: Wait for Email Address textbox ** started    [MsgId: MMSG-205180]
+t=00021801ms: ** 2: Wait for Email Address textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_010_Homepage" ended with a "Pass" status (Duration: 9.6280 Think Time: 0.1130 Wasted Time: 0.4220).
+t=00022159ms: ** 3: Wait thinktime seconds ** started    [MsgId: MMSG-205180]
+t=00023377ms: ** 3: Wait 1 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00023753ms: ** 4: Login ** started    [MsgId: MMSG-205180]
+t=00024300ms: ** 4.1: Click on Email Address textbox ** started    [MsgId: MMSG-205180]
+t=00025302ms: ** 4.1: Click on Email Address textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00025838ms: ** 4.2: Type admin1@hpe.com in Email Address textbox ** started    [MsgId: MMSG-205180]
+t=00029824ms: ** 4.2: Type admin1@hpe.com in Email Address textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00030352ms: ** 4.3: Type ******** in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00033120ms: ** 4.3: Type ******** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_011_Login" started.
+t=00033957ms: ** 4.4: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00035142ms: ** 4.4: Click on Login button ** successfully completed with end event 'Step network completed'    [MsgId: MMSG-205180]
+t=00035200ms: ** 4.5: Wait for Good day, JavaScript link ** started    [MsgId: MMSG-205180]
+t=00066222ms: Error -205177: ** 4.5: Wait for Good day, JavaScript link ** failed - target object was not found. Identification: XPath (//small[text()="Good day,"])       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+Notify: Transaction "APA_ProcessFlow_011_Login" ended with a "Fail" status (Duration: 32.5690 Think Time: 0.0350 Wasted Time: 0.3570).
+Notify: Transaction "APA_ProcessFlow_011_Login" has 1 error message(s).
+Notify: The 1st error message associated with transaction "APA_ProcessFlow_011_Login" is "Error -205177: ** 4.5: Wait for Good day, JavaScript link ** failed - target object was not found. Identification: XPath (//small[text()="Good day,"])"
+t=00066816ms: ** 4: Login ** was aborted due to an error in a child step    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

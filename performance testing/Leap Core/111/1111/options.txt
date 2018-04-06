@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\huanri\work\performance testing\Leap Core\APA-DynamicFilter
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\huanri\work\performance testing\leap core\apa-dynamicfilter\\logfile.log
+c:\users\huanri\work\performance testing\leap core\apa-dynamicfilter\\combined_APA-ProcessFlow.c
+c:\users\huanri\work\performance testing\leap core\apa-dynamicfilter\\pre_cci.c

@@ -1,0 +1,12 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+t=00070400ms: ** 15: Wait 10 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00070402ms: ** 16: Evaluate JavaScript code LR.startTransaction("APA...ocessName + "]") ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_023_RunProcess_[7K_Negetive]" started.	[MsgId: MMSG-16999]
+t=00070606ms: ** 16: Evaluate JavaScript code LR.startTransaction("APA...ocessName + "]") ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00071110ms: ** 17: Click on Go button ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00071848ms: ** 17: Click on Go button ** successfully completed with end event 'Step network completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00071850ms: ** 18: Wait for Start Process  ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00077008ms: Error -205177: ** 18: Wait for Start Process  ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

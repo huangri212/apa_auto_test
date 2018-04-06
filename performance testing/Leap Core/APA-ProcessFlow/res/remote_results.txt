@@ -1,0 +1,2 @@
+[Hosts]
+localhost=C:\Work\Performance\CORE\APA-ProcessFlow\res\localhost_1.eve

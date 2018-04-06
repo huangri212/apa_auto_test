@@ -1,0 +1,32 @@
+Virtual User Script started at : 2018-01-05 16:43:48
+TruClient Replay for LoadRunner 12.55.0, build 0911. OS: Windows 10, Browser: Firefox, initialized on 2018/01/05 at 16:43:45 (0000.000s)
+
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "APA_ProcessFlow_010_Homepage" started.
+t=00006163ms: ** 1: Navigate to "qa.dxc-apa.net" ** started    [MsgId: MMSG-205180]
+t=00006268ms: ** 1: Navigate to qa.dxc-apa.net ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00006299ms: ** 2: Wait for Email Address textbox ** started    [MsgId: MMSG-205180]
+t=00015352ms: ** 2: Wait for Email Address textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_010_Homepage" ended with a "Pass" status (Duration: 9.5480 Think Time: 0.0050 Wasted Time: 0.4120).
+t=00015674ms: ** 3: Wait thinktime seconds ** started    [MsgId: MMSG-205180]
+t=00026897ms: ** 3: Wait 11 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00027081ms: ** 4: Login ** started    [MsgId: MMSG-205180]
+t=00027650ms: ** 4.1: Click on Email Address textbox ** started    [MsgId: MMSG-205180]
+t=00028585ms: ** 4.1: Click on Email Address textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00029109ms: ** 4.2: Type admin1@hpe.com in Email Address textbox ** started    [MsgId: MMSG-205180]
+t=00032849ms: ** 4.2: Type admin1@hpe.com in Email Address textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00033394ms: ** 4.3: Type ******** in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00036386ms: ** 4.3: Type ******** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_011_Login" started.
+t=00037152ms: ** 4.4: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00038690ms: ** 4.4: Click on Login button ** successfully completed with end event 'Step network completed'    [MsgId: MMSG-205180]
+t=00038753ms: ** 4.5: Wait for Good day, JavaScript link ** started    [MsgId: MMSG-205180]
+t=00039600ms: ** 4.5: Wait for Good day, JavaScript link ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_011_Login" ended with a "Pass" status (Duration: 2.6700 Think Time: 0.0360 Wasted Time: 0.6400).
+t=00039893ms: ** 4: Login ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00039894ms: ** 5: Wait thinktime seconds ** started    [MsgId: MMSG-205180]
+t=00050110ms: ** 5: Wait 10 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00103249ms: ** 6: Click on Process Discovery  ** was stopped    [MsgId: MMSG-205180]
+Ending iteration 1.
+Abort was called from an action

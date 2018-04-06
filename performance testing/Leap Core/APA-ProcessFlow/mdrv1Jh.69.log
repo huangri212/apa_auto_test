@@ -1,0 +1,36 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+Notify: Transaction "APA_ProcessFlow_010_Homepage" started.	[MsgId: MMSG-16999]
+t=00009516ms: ** 1: Navigate to "qa.dxc-apa.net" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00009978ms: ** 1: Navigate to qa.dxc-apa.net ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00009989ms: ** 2: Wait for Email Address textbox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00040612ms: Error -205177: ** 2: Wait for Email Address textbox ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+Notify: Transaction "APA_ProcessFlow_010_Homepage" started.	[MsgId: MMSG-16999]
+t=00041345ms: ** 1: Navigate to "qa.dxc-apa.net" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00041720ms: ** 1: Navigate to qa.dxc-apa.net ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00041728ms: ** 2: Wait for Email Address textbox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00072259ms: Error -205177: ** 2: Wait for Email Address textbox ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 2 1]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+Notify: Transaction "APA_ProcessFlow_010_Homepage" started.	[MsgId: MMSG-16999]
+t=00072954ms: ** 1: Navigate to "qa.dxc-apa.net" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00073344ms: ** 1: Navigate to qa.dxc-apa.net ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00073351ms: ** 2: Wait for Email Address textbox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00103842ms: Error -205177: ** 2: Wait for Email Address textbox ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 3 2]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+Notify: Transaction "APA_ProcessFlow_010_Homepage" started.	[MsgId: MMSG-16999]
+t=00104499ms: ** 1: Navigate to "qa.dxc-apa.net" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00104898ms: ** 1: Navigate to qa.dxc-apa.net ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00104906ms: ** 2: Wait for Email Address textbox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00135316ms: Error -205177: ** 2: Wait for Email Address textbox ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 4 3]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

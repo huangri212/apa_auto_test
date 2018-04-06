@@ -1,0 +1,48 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+t=00046869ms: ** 8: Wait 11 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_021_ClickOnProcessList" started.	[MsgId: MMSG-16999]
+t=00047386ms: ** 9: Click on processList_genericCompany  ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00047809ms: ** 9: Click on processList_genericCompany  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00047810ms: ** 10: Evaluate JavaScript code var processName = LR.get...("processName"); ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00048013ms: ** 10: Evaluate JavaScript code var processName = LR.get...("processName"); ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00048015ms: ** 11: Wait for processName combobox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00078716ms: Error -205177: ** 11: Wait for processName combobox ** failed - target object was not found. Identification: JavaScript       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+t=00125534ms: ** 8: Wait 10 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_021_ClickOnProcessList" started.	[MsgId: MMSG-16999]
+t=00126050ms: ** 9: Click on processList_genericCompany  ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00126471ms: ** 9: Click on processList_genericCompany  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00126472ms: ** 10: Evaluate JavaScript code var processName = LR.get...("processName"); ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00126689ms: ** 10: Evaluate JavaScript code var processName = LR.get...("processName"); ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00126691ms: ** 11: Wait for processName combobox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00157385ms: Error -205177: ** 11: Wait for processName combobox ** failed - target object was not found. Identification: JavaScript       Snapshot Info [MSH 2 1]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+t=00201624ms: ** 8: Wait 11 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_021_ClickOnProcessList" started.	[MsgId: MMSG-16999]
+t=00202126ms: ** 9: Click on processList_genericCompany  ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00202548ms: ** 9: Click on processList_genericCompany  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00202549ms: ** 10: Evaluate JavaScript code var processName = LR.get...("processName"); ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00202766ms: ** 10: Evaluate JavaScript code var processName = LR.get...("processName"); ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00202768ms: ** 11: Wait for processName combobox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00233399ms: Error -205177: ** 11: Wait for processName combobox ** failed - target object was not found. Identification: JavaScript       Snapshot Info [MSH 3 2]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+t=00279519ms: ** 8: Wait 10 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_021_ClickOnProcessList" started.	[MsgId: MMSG-16999]
+t=00280037ms: ** 9: Click on processList_genericCompany  ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00280460ms: ** 9: Click on processList_genericCompany  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00280462ms: ** 10: Evaluate JavaScript code var processName = LR.get...("processName"); ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00280665ms: ** 10: Evaluate JavaScript code var processName = LR.get...("processName"); ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00280666ms: ** 11: Wait for processName combobox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00311351ms: Error -205177: ** 11: Wait for processName combobox ** failed - target object was not found. Identification: JavaScript       Snapshot Info [MSH 4 3]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

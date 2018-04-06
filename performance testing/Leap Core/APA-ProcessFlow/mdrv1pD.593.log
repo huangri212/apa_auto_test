@@ -1,0 +1,8 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+t=00121489ms: ** 40: Evaluate JavaScript code LR.endTransaction("APA_P...e + "]", "Auto") ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_027_ShowKPI_[PT_20M_1]" ended with a "Pass" status (Duration: 1.0320 Wasted Time: 0.7370).	[MsgId: MMSG-16871]
+t=00121692ms: ** 40: Evaluate JavaScript code LR.endTransaction("APA_P...e + "]", "Auto") ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00121694ms: ** 41: Wait thinktime seconds ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00132900ms: ** 41: Wait 11 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00132902ms: ** 43: Evaluate JavaScript code LR.endTransaction("APA_P...e + "]", "Auto") ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00132984ms: Error -205177: ** 43: Evaluate JavaScript code API_ERROR_UNEXPECTED: LR...lysis_[PT_20M_1] ** failed - exception occurred: API_ERROR_UNEXPECTED: LR.endTransaction Error: A transaction with the name was not opened: APA_ProcessFlow_028_Analysis_[PT_20M_1]       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]

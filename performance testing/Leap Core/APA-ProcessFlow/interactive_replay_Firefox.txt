@@ -1,0 +1,69 @@
+Virtual User Script started at : 2018-01-05 18:10:19
+TruClient Replay for LoadRunner 12.55.0, build 0911. OS: Windows 10, Browser: Firefox, initialized on 2018/01/05 at 18:10:06 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "APA_ProcessFlow_010_Homepage" started.
+t=00018618ms: ** 1: Navigate to "qa.dxc-apa.net" ** started    [MsgId: MMSG-205180]
+t=00018735ms: ** 1: Navigate to qa.dxc-apa.net ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00018826ms: ** 2: Wait for Email Address textbox ** started    [MsgId: MMSG-205180]
+t=00028965ms: ** 2: Wait for Email Address textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_010_Homepage" ended with a "Pass" status (Duration: 10.8090 Think Time: 0.0580 Wasted Time: 0.4220).
+t=00029282ms: ** 3: Wait thinktime seconds ** started    [MsgId: MMSG-205180]
+t=00040547ms: ** 3: Wait 11 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00041035ms: ** 4: Login ** started    [MsgId: MMSG-205180]
+t=00041677ms: ** 4.1: Click on Email Address textbox ** started    [MsgId: MMSG-205180]
+t=00042684ms: ** 4.1: Click on Email Address textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00043216ms: ** 4.2: Type admin1@hpe.com in Email Address textbox ** started    [MsgId: MMSG-205180]
+t=00047148ms: ** 4.2: Type admin1@hpe.com in Email Address textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00047673ms: ** 4.3: Type ******** in Password passwordbox ** started    [MsgId: MMSG-205180]
+t=00050505ms: ** 4.3: Type ******** in Password passwordbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_011_Login" started.
+t=00051252ms: ** 4.4: Click on Login button ** started    [MsgId: MMSG-205180]
+t=00052847ms: ** 4.4: Click on Login button ** successfully completed with end event 'Step network completed'    [MsgId: MMSG-205180]
+t=00052888ms: ** 4.5: Wait for Good day, JavaScript link ** started    [MsgId: MMSG-205180]
+t=00053850ms: ** 4.5: Wait for Good day, JavaScript link ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_011_Login" ended with a "Pass" status (Duration: 2.8490 Think Time: 0.0060 Wasted Time: 0.7200).
+t=00054314ms: ** 4: Login ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00054315ms: ** 5: Wait thinktime seconds ** started    [MsgId: MMSG-205180]
+t=00064534ms: ** 5: Wait 10 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_020_ClickOnProcessFlow" started.
+t=00065312ms: ** 6: Click on Process Discovery  ** started    [MsgId: MMSG-205180]
+t=00066415ms: ** 6: Click on Process Discovery  ** successfully completed with end event 'Step network completed'    [MsgId: MMSG-205180]
+t=00066531ms: ** 7: Wait for processList_genericCompany  ** started    [MsgId: MMSG-205180]
+t=00068224ms: ** 7: Wait for processList_genericCompany  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_020_ClickOnProcessFlow" ended with a "Pass" status (Duration: 3.1950 Think Time: 0.0930 Wasted Time: 0.4400).
+t=00068545ms: ** 8: Wait thinktime seconds ** started    [MsgId: MMSG-205180]
+t=00079762ms: ** 8: Wait 11 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_021_ClickOnProcessList" started.
+t=00080489ms: ** 9: Click on processList_genericCompany  ** started    [MsgId: MMSG-205180]
+t=00081171ms: ** 9: Click on processList_genericCompany  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00081264ms: ** 10: Evaluate JavaScript code var processName = LR.get...("processName"); ** started    [MsgId: MMSG-205180]
+t=00081519ms: ** 10: Evaluate JavaScript code var processName = LR.get...("processName"); ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00081577ms: ** 11: Wait for processName combobox ** started    [MsgId: MMSG-205180]
+t=00082600ms: ** 11: Wait for processName combobox ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_021_ClickOnProcessList" ended with a "Pass" status (Duration: 2.3450 Think Time: 0.1040 Wasted Time: 0.4340).
+t=00082973ms: ** 12: Wait thinktime seconds ** started    [MsgId: MMSG-205180]
+t=00093387ms: ** 12: Wait 10 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_022_SelectProcess" started.
+t=00094177ms: ** 13: Click on processName combobox ** started    [MsgId: MMSG-205180]
+t=00095257ms: ** 13: Click on processName combobox ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00095420ms: ** 14: Wait for Selected  ** started    [MsgId: MMSG-205180]
+t=00096234ms: ** 14: Wait for Selected  ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_022_SelectProcess" ended with a "Pass" status (Duration: 2.3510 Think Time: 0.1030 Wasted Time: 0.2580).
+t=00096936ms: ** 15: Wait thinktime seconds ** started    [MsgId: MMSG-205180]
+t=00107161ms: ** 15: Wait 10 seconds ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00107245ms: ** 16: Evaluate JavaScript code LR.startTransaction("APA...ocessName + "]") ** started    [MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_023_RunProcess_[PT_7K_1]" started.
+Warning: Transaction name 'APA_ProcessFlow_023_RunProcess_[PT_7K_1]' is illegal, will replaced with 'APA_ProcessFlow_023_RunProcess_-PT_7K_1-'. Characters '`&*()\|:'"<>/?[]=' are not supported by NV.
+t=00107576ms: ** 16: Evaluate JavaScript code LR.startTransaction("APA...ocessName + "]") ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00108102ms: ** 17: Click on Go button ** started    [MsgId: MMSG-205180]
+t=00109749ms: ** 17: Click on Go button ** successfully completed with end event 'Step network completed'    [MsgId: MMSG-205180]
+t=00109846ms: ** 18: Wait for Start Process  ** started    [MsgId: MMSG-205180]
+t=00113036ms: Dialog-Confirm: Vuser is running. Do you want to stop it now?    [MsgId: MMSG-205180]
+t=00119443ms: Error -205177: ** 18: Wait for Start Process  ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+Notify: Transaction "APA_ProcessFlow_023_RunProcess_[PT_7K_1]" ended with a "Fail" status (Duration: 12.5985).
+Notify: Transaction "APA_ProcessFlow_023_RunProcess_[PT_7K_1]" has 1 error message(s).
+Notify: The 1st error message associated with transaction "APA_ProcessFlow_023_RunProcess_[PT_7K_1]" is "Error -205177: ** 18: Wait for Start Process  ** failed - target object was not found. Identification: Automatic"
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

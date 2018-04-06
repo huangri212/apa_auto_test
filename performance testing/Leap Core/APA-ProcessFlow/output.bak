@@ -1,0 +1,15 @@
+Virtual User Script started at : 2018-01-04 06:23:10
+TruClient Replay for LoadRunner 12.55.0, build 0911. OS: Windows 2012 R2, Browser: Firefox, initialized on 2018/01/04 at 06:23:08 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "APA_ProcessFlow_010_Homepage" started.
+t=00002225ms: ** 1: Navigate to "qa.dxc-apa.net" ** started    [MsgId: MMSG-205180]
+t=00002513ms: ** 1: Navigate to qa.dxc-apa.net ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00002518ms: ** 2: Wait for Email Address textbox ** started    [MsgId: MMSG-205180]
+t=00032685ms: Error -205177: ** 2: Wait for Email Address textbox ** failed - target object was not found. Identification: Automatic       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+Notify: Transaction "APA_ProcessFlow_010_Homepage" ended with a "Fail" status (Duration: 30.4630 Think Time: 0.0020 Wasted Time: 0.2240).
+Notify: Transaction "APA_ProcessFlow_010_Homepage" has 1 error message(s).
+Notify: The 1st error message associated with transaction "APA_ProcessFlow_010_Homepage" is "Error -205177: ** 2: Wait for Email Address textbox ** failed - target object was not found. Identification: Automatic"
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

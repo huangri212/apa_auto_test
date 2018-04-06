@@ -1,0 +1,17 @@
+Virtual User Script started at : 2018-01-05 16:57:14	[MsgId: MMSG-205068]
+TruClient Replay for LoadRunner 12.55.0, build 0911. OS: Windows 10, Browser: Firefox, initialized on 2018/01/05 at 16:57:06 (0000.000s)
+	[MsgId: MMSG-204898]
+Running Vuser...	[MsgId: MMSG-205064]
+Starting iteration 1.	[MsgId: MMSG-15968]
+Notify: Transaction "APA_ProcessFlow_010_Homepage" started.	[MsgId: MMSG-16999]
+t=00009060ms: ** 1: Navigate to "qa.dxc-apa.net" ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00009573ms: ** 1: Navigate to qa.dxc-apa.net ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00009583ms: ** 2: Wait for Email Address textbox ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00019478ms: ** 2: Wait for Email Address textbox ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+Notify: Transaction "APA_ProcessFlow_010_Homepage" ended with a "Pass" status (Duration: 10.4260 Think Time: 0.0020 Wasted Time: 0.4020).	[MsgId: MMSG-16870]
+t=00019488ms: ** 3: Wait thinktime seconds ** started    [MsgId: MMSG-205180]	[MsgId: MMSG-205180]
+t=00020027ms: Error -205177: ** 3: Wait 3 seconds ** failed - an argument is invalid:
+	'Interval': The specified value's type ("number") does not match the required one ("integer")       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]	[MsgId: MERR-205177]
+Ending iteration 1.	[MsgId: MMSG-15965]
+Ending Vuser...	[MsgId: MMSG-205066]
+Vuser Terminated.	[MsgId: MMSG-205063]
